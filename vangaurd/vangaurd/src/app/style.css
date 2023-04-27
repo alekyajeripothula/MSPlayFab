@@ -1,0 +1,64 @@
+.login-form {
+	background-color: #f5f5f5;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	background-color: #008cba;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #005f70;
+}
+
+.back-link {
+	margin-bottom: 20px;
+}
+
+.checkbox {
+	margin-bottom: 20px;
+}
+
+.spinner {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.spinner-label {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.confirm {
+	margin-top: 20px;
+}
